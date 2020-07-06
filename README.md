@@ -24,4 +24,4 @@ Since sparsity and scalability are the two biggest challenges for standard Colla
 
 #### Content-Based Recommendation Filtering Systems:
 
-#### Evaluating Recommendation Systems:
+### Evaluating Recommendation Systems:
