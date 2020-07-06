@@ -18,9 +18,7 @@ Assume two items are similar when they received similar ratings from a same user
 
 
 #### Model-Based Collaboractive Filtering Systems (Matrix Factorization):
-Since sparsity and scalability are the two biggest challenges for standard Collabrative Filtering methods, there are more advanced method that decompose the original sparse matrix to low-dimensional matrices with latent factors/features and less sparsity. That is **Matrix Factorization**.
-
-**Singular Value Decomposition (SVD)**: A linear algebra method that can decompose a utility matrix into three compressed matrices. Model-based recommender uses these compressed matrices to make recommendations without having to refer back to the complete dataset.  
+Since sparsity and scalability are the two biggest challenges for standard Collabrative Filtering methods, there are more advanced method that decompose the original sparse matrix to low-dimensional matrices with latent factors/features and less sparsity. That is **Matrix Factorization**. To implement the matrix factorization, we demonstrate the use of **Singular Value Decomposition (SVD)**, which is a linear algebra method that can decompose a utility matrix into three compressed matrices. Model-based recommender uses these compressed matrices to make recommendations without having to refer back to the complete dataset.  
 
 #### Content-Based Recommendation Filtering Systems:
 
