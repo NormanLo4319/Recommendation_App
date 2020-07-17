@@ -31,3 +31,7 @@ Another popular ML algorithm of recommendation systems is content-based filterin
 
 ### III - Evaluating Recommendation Systems:
 To examine which model can make the best prediction and recommendation, we need to evaluate the performance of the outcome (recommendation). For classification problem, we can look at the confusion matrix and evaluate the **Precision** and **Recall**. 
+
+
+## Applying the Classifier on the Web:
+Once we pick a filtering system, we can then build a web application with the selected model. When a user input the required fields, the filtering system will make a recommendation based on the feature values. We are building the web application with Python and Flask. 
