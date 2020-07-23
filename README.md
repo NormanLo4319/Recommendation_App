@@ -1,4 +1,4 @@
-# Recommendation_App
+# Recommendation System
 In this repository, we demonstrate some basic concepts and steps for building an online recommendation application. 
 
 ## Collaborative Filtering Systems:
