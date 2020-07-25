@@ -4,7 +4,7 @@ In this repository, we demonstrate some basic concepts and steps for building an
 ## Collaborative Filtering Systems:
 Collaborative filtering systems recommend items based on crowdsourced information about users' preferences for items.
 
-### I - Two Traditional Approaches:
+### Part I - Two Traditional Approaches:
 
 #### User Based: 
 User-based collaborative fitering systems are systems that recommend items based on similarity between users. Based on the attribute of the user, the systems find the similar users in the database and recommend the items based on the existing users' perference.
@@ -12,7 +12,7 @@ User-based collaborative fitering systems are systems that recommend items based
 #### Item Based: 
 Assume two items are similar when they received similar ratings from a same user. Then, we make prediction for a target user on an item by calculating weighted average of ratings on most X similar items from this user. One of the limitations is that it doesn't handle sparsity well when no one in the neighborhood rated an item that is what you are trying to predict for target user. Also, it's not computational efficient as the growth of the number of users and products.
 
-### II - Machine Learning Recommendation Approaches:
+### Part II - Machine Learning Recommendation Approaches:
 
 #### Popularity-Based Filtering System:
 Form of collaborative filtering, where items are recommended to user based on how popular those items are among other users. In most cases, the system counts the number of rating of each item in the database. The assumption is that the items that have the most number of ratings or reviews are the most popular. 
@@ -29,7 +29,7 @@ Since sparsity and scalability are the two biggest challenges for standard Colla
 #### Content-Based Recommendation Filtering Systems:
 Another popular ML algorithm of recommendation systems is content-based filtering. Content here refers to the content or attributes of the products you like. So, the idea in content-based filtering is to tag products using certain keywords, understand what the user likes, look up those keywords in the database and recommend different product with the same attributes. We  deomonstrate the use of **Nearest Neighbor** algorithm to make a prediction.
 
-### III - Evaluating Recommendation Systems:
+### Part III - Evaluating Recommendation Systems:
 To examine which model can make the best prediction and recommendation, we need to evaluate the performance of the outcome (recommendation). For classification problem, we can look at the confusion matrix and evaluate the **Precision** and **Recall**. 
 
 
