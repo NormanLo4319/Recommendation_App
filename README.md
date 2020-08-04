@@ -36,4 +36,6 @@ To examine which model can make the best prediction and recommendation, we need 
 ## Applying the Classifier on the Web:
 Once we pick a filtering system, we can then build a web application with the selected model. When a user input the required fields, the filtering system will make a recommendation based on the feature values. We are building the web application with Python and Flask. 
 
+### Resources: [Scikit-Learn](https://scikit-learn.org/stable/)  
+
 Copyright © 2020 Norman Lo
