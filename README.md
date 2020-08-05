@@ -1,5 +1,5 @@
 # Recommendation System
-In this repository, we demonstrate some basic concepts and steps for building an online recommendation application. 
+In this repository, we demonstrate some basic concepts of recommendation system and steps for building an online recommendation application. 
 
 ## Collaborative Filtering Systems:
 Collaborative filtering systems recommend items based on crowdsourced information about users' preferences for items.
